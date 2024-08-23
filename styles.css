@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.thead1:hover {
+  text-decoration-line:underline;
+}
+
+.thead2:hover {
+  text-decoration-line:underline;  
+}
+
+.thead3:hover {
+  text-decoration-line:underline;
+}
+
+#carouselExample {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+html[dir="ltr"] #localMenu {
+  margin-left: auto;
+}
+
+html[dir="rtl"] #localMenu {
+  margin-right: auto;
+}
+
+html[dir="ltr"] {
+  text-align: left;
+}
+
+html[dir="rtl"] {
+  text-align: right;
+}
+h4 {
+  text-decoration: underline;
+}
+.nav-item :hover {
+  text-decoration: underline;
+}
+header {
+  border-bottom: 5px solid white;
+}
+.navbar-custom {
+  background-color: rgba(26, 167, 33, 0.942);
+}
+body {
+  background-image: url('img/nature-3092017_1280.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center; 
+  height: 100vh; 
+  margin: 0;
+  background-attachment: fixed;
+}
+
+.kasten {
+  background-color: rgba(255, 255, 255, 0.89);
+  
+}
